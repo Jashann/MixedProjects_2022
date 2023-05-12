@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding:5px;
+}
+
+
+.in-container{
+	background-color: white;
+	border: solid;
+	border-color: black;
+	border-width: 0.5px;
+	margin-left: 20%;
+	margin-right: 20%;
+	min-height: 1000px;
+}
+
+.headline{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 40px;
+	font-family: 'Rubik Vinyl', cursive;
+	color: #343a40;
+}
+
+.sub-headline{
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	color: #343a40;
+	padding-bottom: 20px;
+}
+
+.bio{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.box{
+	display: inline-block;
+	background-color: white;
+	padding-top: 20px;
+	width: 150px;
+	height: 260px;
+	margin: 10px;
+	border: solid;
+	border-width: 0.5px;
+	font-size: 25px;
+	font-family: 'Amatic SC', cursive;
+
+}
+
+.service{
+		font-family: 'Amatic SC', cursive;
+	font-weight: bolder;
+	font-size: 35px;
+
+	
+}
+
+.page{
+	text-align: right;
+	margin-right: 8px;
+}
+@media only screen and (max-width: 600px) {
+  .in-container {
+    margin: 0px;
+  }
+}
